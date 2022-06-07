@@ -10,6 +10,11 @@ dependencies:
   get: 4.6.5
   flutter: 
     sdk: flutter
+  sizer: ^2.0.15
+  google_fonts: ^3.0.1
+  firebase_core: ^1.17.1
+  firebase_auth: ^3.3.19
+  flutter_svg: ^1.1.0
 
 dev_dependencies: 
   flutter_lints: ^2.0.0
@@ -18,5 +23,21 @@ dev_dependencies:
     sdk: flutter
 
 flutter: 
+  fonts:
+    - family: CircularStd
+      fonts:
+        - asset: assets/fonts/circular_std.ttf
+          weight: 500
+        - asset: assets/fonts/circular_std_bold.ttf
+          weight: 600
+        - asset: assets/fonts/circular_std_black.ttf
+          weight: 700
+  assets:
+    - assets/images/calculator.svg
+    - assets/images/home.svg
+    - assets/images/user.svg
+    - assets/images/shopping-cart.svg
+
   uses-material-design: true
+
 
